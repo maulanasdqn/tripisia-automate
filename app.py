@@ -11,15 +11,11 @@ target_buger = "/html/body/nav/div/div[1]/a[1]"
 login_username = "Dewa.nich@gmail.com"
 login_password = "dewa=k1d"
 
-def main():
-    # Define Variable that needed for Automation
-    url = "https://tripisia.id/cms"
-    url_login = "https://tripisia.id/cms/dashboard"
-    url_post = "https://tripisia.id/cms/dashboard/add_poi"
-    opts = webdriver.FirefoxOptions()
-    opts.add_argument("--width=1024")
-    opts.add_argument("--height=800")
-    driver = webdriver.Firefox(options=opts)
+url = "https://tripisia.id/cms"
+url_login = "https://tripisia.id/cms/dashboard"
+url_post = "https://tripisia.id/cms/dashboard/add_poi"
+
+def main(driver):
     driver.get(url)
 
     # Get Username Input Field and Insert a valid Username
@@ -36,12 +32,18 @@ def main():
     WebDriverWait(driver, timeout=5).until(EC.presence_of_all_elements_located((By.XPATH, target_button)))
     button = driver.find_element(By.XPATH, target_button)
     button.click()
-
+   
+def inputPost(driver):
     # Get Burger Toggle and Push the Burger
     WebDriverWait(driver,10).until(lambda driver : driver.current_url == url_login)
     driver.get(url_post)
-
-   
+ 
     
 if __name__ == "__main__":
-    main()
+    # Define Variable that needed for Automation
+    opts = webdriver.FirefoxOptions()
+    opts.add_argument("--width=1024")
+    opts.add_argument("--height=800")
+    driver = webdriver.Firefox(options=opts)
+    main(driver)
+    inputPost(driver)
