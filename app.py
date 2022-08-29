@@ -1,5 +1,4 @@
 from selenium import webdriver
-from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
@@ -16,6 +15,7 @@ def main():
     # Define Variable that needed for Automation
     url = "https://tripisia.id/cms"
     url_login = "https://tripisia.id/cms/dashboard"
+    url_post = "https://tripisia.id/cms/dashboard/add_poi"
     opts = webdriver.FirefoxOptions()
     opts.add_argument("--width=1024")
     opts.add_argument("--height=800")
@@ -39,9 +39,9 @@ def main():
 
     # Get Burger Toggle and Push the Burger
     WebDriverWait(driver,10).until(lambda driver : driver.current_url == url_login)
-    WebDriverWait(driver, timeout=5).until(EC.element_to_be_clickable((By.XPATH, target_buger)))
-    burger = driver.find_element(By.XPATH, target_buger)
-    burger.click()
+    driver.get(url_post)
+
+   
     
 if __name__ == "__main__":
     main()

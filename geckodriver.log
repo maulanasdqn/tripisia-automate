@@ -1,0 +1,77 @@
+1661789289105	geckodriver	INFO	Listening on 127.0.0.1:42381
+1661789289155	mozrunner::runner	INFO	Running command: "/etc/profiles/per-user/ms/bin/firefox" "--marionette" "--width=1024" "--height=800" "--remote-debugging-port" "56725" "-no-remote" "-profile" "/tmp/rust_mozprofilefDHXCz"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661789289885	Marionette	INFO	Marionette enabled
+1661789289891	Marionette	INFO	Listening on port 35815
+WebDriver BiDi listening on ws://localhost:56725
+1661789290035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefDHXCz/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:56725/devtools/browser/cef88ef8-a732-4e66-9d3a-fb68ca3fe820
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://tripisia.id."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://tripisia.id."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661789333643	Marionette	INFO	Stopped listening on port 35815
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661789345835	geckodriver	INFO	Listening on 127.0.0.1:39155
+1661789345840	mozrunner::runner	INFO	Running command: "/etc/profiles/per-user/ms/bin/firefox" "--marionette" "--width=1024" "--height=800" "--remote-debugging-port" "44967" "-no-remote" "-profile" "/tmp/rust_mozprofile1ACiKx"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661789346585	Marionette	INFO	Marionette enabled
+1661789346590	Marionette	INFO	Listening on port 43023
+WebDriver BiDi listening on ws://localhost:44967
+1661789346726	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1ACiKx/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:44967/devtools/browser/5ecaa284-0a79-4da5-9a70-a81d88bc9741
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://tripisia.id."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://tripisia.id."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661789433751	Marionette	INFO	Stopped listening on port 43023
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661789460168	geckodriver	INFO	Listening on 127.0.0.1:35111
+1661789460174	mozrunner::runner	INFO	Running command: "/etc/profiles/per-user/ms/bin/firefox" "--marionette" "--width=1024" "--height=800" "--remote-debugging-port" "55473" "-no-remote" "-profile" "/tmp/rust_mozprofile3oInjJ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661789460895	Marionette	INFO	Marionette enabled
+1661789460900	Marionette	INFO	Listening on port 43097
+WebDriver BiDi listening on ws://localhost:55473
+1661789461034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3oInjJ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:55473/devtools/browser/61900585-ec03-4fbb-94c1-e6ba51a57de3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://tripisia.id."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://tripisia.id."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://tripisia.id."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661789512453	Marionette	INFO	Stopped listening on port 43097
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661789579615	geckodriver	INFO	Listening on 127.0.0.1:58983
+1661789579665	mozrunner::runner	INFO	Running command: "/etc/profiles/per-user/ms/bin/firefox" "--marionette" "--width=1024" "--height=800" "--remote-debugging-port" "39875" "-no-remote" "-profile" "/tmp/rust_mozprofile7W5Tjm"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661789580392	Marionette	INFO	Marionette enabled
+1661789580396	Marionette	INFO	Listening on port 37185
+WebDriver BiDi listening on ws://localhost:39875
+1661789580530	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7W5Tjm/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:39875/devtools/browser/7dca7e5d-a5ec-4cf7-9d41-5df0b3e176c0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://tripisia.id."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://tripisia.id."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661789621058	Marionette	INFO	Stopped listening on port 37185
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
